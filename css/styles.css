@@ -110,6 +110,8 @@ body {
 .features__text {
   font-weight: 400;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*  sesction team  */
 .team {
