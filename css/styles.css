@@ -3,6 +3,7 @@ body {
   color: #2e2f42;
   background-color: white;
 }
+/* HEADER */
 .header {
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -16,13 +17,17 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
 }
 .nav__list {
 }
 .nav__item {
 }
 .nav__link {
-  color: initial;
+  color: inherit;
   font-weight: 500;
   text-decoration: none;
 }
@@ -49,4 +54,109 @@ body {
 .contacts__link--email {
 }
 .contacts__link--phone {
+}
+/* main */
+.main {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* section hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.0714;
+  color: white;
+}
+.hero__button {
+  letter-spacing: 0.04em;
+  color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+.hero__button:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+/*  section features */
+.features {
+}
+.features__title {
+}
+.features__list {
+}
+.features__item {
+}
+.features__subtitle {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.features__text {
+  font-weight: 400;
+  color: #434455;
+}
+/*  sesction team  */
+.team {
+}
+.team__title {
+  line-height: 1.11111;
+  font-weight: 700;
+  font-size: 36px;
+}
+.team__list {
+}
+.team__item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team__photo {
+}
+.team__name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team__position {
+  color: #434455;
+}
+/* section portfolio */
+.portfolio {
+}
+.portfolio__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+}
+.portfolio__list {
+}
+.portfolio__item {
+}
+.portfolio__image {
+}
+.portfolio__name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.portfolio__category {
+  color: #434455;
+}
+/*  FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+.footer__logo {
+  font-family: 'raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer__text {
+  color: #f4f4fd;
 }
