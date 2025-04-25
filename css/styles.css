@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
   background-color: white;
 }
 /* HEADER */
@@ -73,11 +73,10 @@ body {
 .hero__button {
   letter-spacing: 0.04em;
   color: white;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
   background: #4d5ae5;
 }
 .hero__button:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 /*  section features */
@@ -108,8 +107,6 @@ body {
 .team__list {
 }
 .team__item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team__photo {
 }
