@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #2e2f42;
+  background-color: white;
+}
+.header {
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+.header__nav {
+}
+.nav {
+}
+.nav__logo {
+  font-family: 'raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+}
+.nav__list {
+}
+.nav__item {
+}
+.nav__link {
+  color: initial;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav__link:hover,
+.contacts__link:hover {
+  color: #404bbf;
+}
+.nav__link:active {
+  color: #404bbf;
+}
+.header__contacts {
+}
+.contacts {
+}
+.contacts__list {
+}
+.contacts__item {
+}
+.contacts__link {
+  color: #434455;
+  font-weight: 400;
+  text-decoration: none;
+}
+.contacts__link--email {
+}
+.contacts__link--phone {
+}
